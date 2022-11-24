@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheet</title>
+    <link rel="Stylesheet" href="style3.css">
+
+</head>
+<body>
+    <nav> 
+        <div>
+            
+            <a href="http://127.0.0.1:5500/"> <img src="menu_bar.png" width="40px" alt=" Menu"  ></a>
+        </div>
+    </nav>
+    <hr>
+    <div class="center"></div>
+    <form class="center" method="get">
+        <h2> STUDENT-INFO </h2>
+        <div class="txt_field">
+        <span>NAME : *
+        <input type="text" name="name" id="name" required>
+        </span> 
+        </div>
+        <p>ROLL_NO : *
+            <input type="text" name="ROLL_NO" id="ROLL_NO" required>
+        </p> 
+        <P>PROGRAMME:*
+            <select name="programme" id="programme" required>
+            <option value="">--Choose programme--</option>
+            <option value="male">COMPUTER ENGG</option>
+            <option value="female">INFORMATION TECHNOLOGY ENGG</option>
+            <option value="male">ELECTRONICS AND TELECOMMUNICATION ENGG</option>
+            <option value="male">ELECTRICAL ENGG</option>
+            <option value="male">MECHANICAL ENGG</option>
+            <option value="male">ROBOTICS ENGG</option>
+            <option value="male">ARTIFICIAL INTELIGENCE ENGG</option>
+            <option value="male">CIVIL ENGG</option>
+        </select>
+        </P>
+        
+        <p>Gender:*
+        <select name="Gender" id="Gender" required>
+            <option value="">--Choose Gender--</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        </p>
+        <p>MOBILE_NO : 
+            <label for="quantity"></label>
+<input type="number" id="number" name="number" >
+            </p>
+        <p> Email : *
+        <input type="email" name="email" id="email" required>
+        </p>
+        <input type="submit" value="SUBMIT">
+        <hr>
+    </form>
+    </div>
+    
+</body>
+</html>
